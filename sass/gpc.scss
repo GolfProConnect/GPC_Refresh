@@ -1,0 +1,99 @@
+.show-mb{
+  display: none;
+}
+
+.client{
+  background:#fff;
+  margin-bottom: 10px;
+}
+
+.client .btn-group{
+  margin-top:20px;
+}
+
+.client__details h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin:20px 0 10px 0;
+  color: $blue;
+}
+
+.client__details h4 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.client__details p {
+  color: #444;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+
+.client-search .btn{
+  margin:0;
+}
+
+.input-radio{
+  margin-bottom: 10px;
+}
+
+.margin{
+  margin:20px 0;
+}
+
+.no_margin{
+  margin:0;
+}
+
+.tabs__content .widget{
+  border:0;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+form h3{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tabs__content > div{
+  width:100%;
+}
+
+ul.tags li{
+  display: inline-block;
+  padding:5px 10px;
+  margin:5px 5px 0 0;
+  background:$grey;
+}
+
+form label{
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.profile_img_upload{
+  margin-bottom: 20px;
+}
+
+#vidModal .modal-dialog{
+  width:740px;
+}
+
+
+/* Calendar */
+.calendar{
+  margin-top:1em;
+  ul li.col-sm-2{
+    background:#ccc;
+    width:10%;
+  }
+}
